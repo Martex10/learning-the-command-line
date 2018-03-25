@@ -1,0 +1,69 @@
+t
+martex10:~/workspace/introToCommandLine/colors/FaveColors $ rm green.txt 
+martex10:~/workspace/introToCommandLine/colors/FaveColors $ cd ..
+                                                                 martex10:~/workspace/introToCommandLine/colors $ cd ..
+martex10:~/workspace/introToCommandLine $ ls
+                                            Hello.html  colors/  message.txt
+martex10:~/workspace/introToCommandLine $ rm -rf colors/
+martex10:~/workspace/introToCommandLine $ ls
+                                            Hello.html  message.txt
+martex10:~/workspace/introToCommandLine $ mkdir colors
+martex10:~/workspace/introToCommandLine $ ls
+Hello.html  colors/  message.txt
+martex10:~/workspace/introToCommandLine $ cd colors/
+martex10:~/workspace/introToCommandLine/colors $ touch green.txt
+martex10:~/workspace/introToCommandLine/colors $ ls
+green.txt
+martex10:~/workspace/introToCommandLine/colors $ touch blue.txt
+martex10:~/workspace/introToCommandLine/colors $ touch purple.txt
+martex10:~/workspace/introToCommandLine/colors $ ls
+                                                   blue.txt  green.txt  purple.txt
+martex10:~/workspace/introToCommandLine/colors $ rm green.txt 
+martex10:~/workspace/introToCommandLine/colors $ ls
+                                                   blue.txt  purple.txt
+martex10:~/workspace/introToCommandLine/colors $ cd ..
+martex10:~/workspace/introToCommandLine $ ls
+                                            Hello.html  colors/  message.txt
+martex10:~/workspace/introToCommandLine $ cd ..
+martex10:~/workspace $ cd introToCommandLine/colors
+martex10:~/workspace/introToCommandLine/colors $ ls
+                                                   blue.txt  purple.txt
+martex10:~/workspace/introToCommandLine/colors $ mkdir FaveColor
+martex10:~/workspace/introToCommandLine/colors $ ls
+                                                   FaveColor/  blue.txt  purple.txt
+martex10:~/workspace/introToCommandLine/colors $ cd FaveColor/
+martex10:~/workspace/introToCommandLine/colors/FaveColor $ touch teal.txt
+martex10:~/workspace/introToCommandLine/colors/FaveColor $ touch RoyalBlue.txt
+martex10:~/workspace/introToCommandLine/colors/FaveColor $ ls
+RoyalBlue.txt  teal.txt
+martex10:~/workspace/introToCommandLine/colors/FaveColor $ rm -fr colors
+martex10:~/workspace/introToCommandLine/colors/FaveColor $ ls
+RoyalBlue.txt  teal.txt
+martex10:~/workspace/introToCommandLine/colors/FaveColor $ rm -rf colors
+martex10:~/workspace/introToCommandLine/colors/FaveColor $ ls
+RoyalBlue.txt  teal.txt
+martex10:~/workspace/introToCommandLine/colors/FaveColor $ cd ..
+martex10:~/workspace/introToCommandLine/colors $ cd ..
+martex10:~/workspace/introToCommandLine $ rm -rf colors/
+martex10:~/workspace/introToCommandLine $ mkdir Animals
+martex10:~/workspace/introToCommandLine $ mkdir Animals/AwsomeAnimals
+martex10:~/workspace/introToCommandLine $ mkdir Animals/SketchyAnimals
+martex10:~/workspace/introToCommandLine $ touch Animals/AwsomeAnimals/Capybara.js
+martex10:~/workspace/introToCommandLine $ touch Animals/AwsomeAnimals/ArcticFoc.htmel
+martex10:~/workspace/introToCommandLine $ rm Animals/AwsomeAnimals/ArcticFoc.htmel 
+martex10:~/workspace/introToCommandLine $ touch Animals/AwsomeAnimals/ArcticFox.html
+martex10:~/workspace/introToCommandLine $ touch 
+touch: missing file operand
+Try 'touch --help' for more information.
+martex10:~/workspace/introToCommandLine $ touch Animals/AwsomeAnimals/TreeFrog.txt
+martex10:~/workspace/introToCommandLine $ touch SketchyAnimals/BrownRecluse.html
+touch: cannot touch ‘SketchyAnimals/BrownRecluse.html’: No such file or directory
+martex10:~/workspace/introToCommandLine $ touch Animals/SketchyAnimals/BrownRecluse.html
+martex10:~/workspace/introToCommandLine $ touch Animals/SketchyAnimals/BulletAnt.js
+martex10:~/workspace/introToCommandLine $ mkdir Animals/SketchyAnimals/Snakes
+martex10:~/workspace/introToCommandLine $ touch Animals/SketchyAnimals/Snakes/Cobra.css
+martex10:~/workspace/introToCommandLine $ touch Animals/SketchyAnimals/Snakes/ReticulatedPython.py
+martex10:~/workspace/introToCommandLine $ rm Animals/SketchyAnimals/B
+BrownRecluse.html  BulletAnt.js       
+martex10:~/workspace/introToCommandLine $ rm Animals/SketchyAnimals/BulletAnt.js 
+martex10:~/workspace/introToCommandLine $ 
