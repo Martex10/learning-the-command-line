@@ -1,0 +1,57 @@
+martex10:~/workspace $ node-v
+bash: node-v: command not found
+martex10:~/workspace $ node -v
+v6.11.2
+martex10:~/workspace $ npm -v
+3.10.10
+martex10:~/workspace $ 
+martex10:~/workspace $ 
+martex10:~/workspace $ ls
+introToCommandLine/
+martex10:~/workspace $ ls
+                         introToCommandLine/
+martex10:~/workspace $ ls
+introToCommandLine/
+martex10:~/workspace $ ls
+                         introToCommandLine/
+martex10:~/workspace $ cd introToCommandLine
+martex10:~/workspace/introToCommandLine $ ls
+                                            message.txt
+martex10:~/workspace/introToCommandLine $ ls
+                                            Hello.html  message.txt
+martex10:~/workspace/introToCommandLine $ cd..
+bash: cd..: command not found
+martex10:~/workspace/introToCommandLine $ cd .. 
+martex10:~/workspace $ cd Hello.html
+                                    bash: cd: Hello.html: No such file or directory
+martex10:~/workspace $ ls
+introToCommandLine/
+martex10:~/workspace $ cd introToCommandLine
+martex10:~/workspace/introToCommandLine $ ls
+Hello.html  message.txt
+martex10:~/workspace/introToCommandLine $ cd ..
+martex10:~/workspace $ ls
+                         introToCommandLine/
+martex10:~/workspace $ cd inrtoToCommandLine
+bash: cd: inrtoToCommandLine: No such file or directory
+martex10:~/workspace $ ls
+introToCommandLine/
+martex10:~/workspace $ cd introToCommandLine
+martex10:~/workspace/introToCommandLine $ ls
+                                            Hello.html  colors/  message.txt
+martex10:~/workspace/introToCommandLine $ cd colors
+martex10:~/workspace/introToCommandLine/colors $ ls
+red.txt
+martex10:~/workspace/introToCommandLine/colors $ cd ..
+                                                      martex10:~/workspace/introToCommandLine $ ls
+Hello.html  colors/  message.txt
+martex10:~/workspace/introToCommandLine $ cd ..
+                                               martex10:~/workspace $ ls
+introToCommandLine/
+martex10:~/workspace $ cd introToCommandLine/
+martex10:~/workspace/introToCommandLine $ ls
+                                            Hello.html  colors/  message.txt
+martex10:~/workspace/introToCommandLine $ cd colors/
+martex10:~/workspace/introToCommandLine/colors $ ls
+                                                   red.txt
+martex10:~/workspace/introToCommandLine/colors $ 
