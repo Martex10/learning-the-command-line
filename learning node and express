@@ -1,0 +1,262 @@
+martex10:~/workspace $ ls
+introToCommandLine/
+martex10:~/workspace $ cd DemoAp
+bash: cd: DemoAp: No such file or directory
+martex10:~/workspace $ cd introToCommandLine/IntroToNode/DemoApp/
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ ls
+app.js  node_modules/
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ npm install faker
+/home/ubuntu/workspace/introToCommandLine/IntroToNode/DemoApp
+└── faker@4.1.0
+
+npm WARN enoent ENOENT: no such file or directory, open '/home/ubuntu/workspace/introToCommandLine/IntroToNode/DemoApp/package.json'
+npm WARN DemoApp No description
+npm WARN DemoApp No repository field.
+npm WARN DemoApp No README data
+npm WARN DemoApp No license field.
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ ls
+app.js  node_modules/
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ cd node_modules/
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp/node_modules $ ls
+ansi-regex/  cliui/          faker/                    knock-knock-jokes/  os-locale/     window-size/  yargs/
+camelcase/   code-point-at/  invert-kv/                lcid/               string-width/  wrap-ansi/
+cat-me/      decamelize/     is-fullwidth-code-point/  number-is-nan/      strip-ansi/    y18n/
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp/node_modules $ cd ..
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ ls
+app.js  node_modules/
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ node app.js
+Handcrafted Soft Table, 31.00
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ node app.js
+Awesome Rubber Chicken, 56.00
+Handcrafted Frozen Shoes, 829.00
+Licensed Rubber Pants, 419.00
+Handcrafted Concrete Mouse, 279.00
+Generic Plastic Shirt, 982.00
+Ergonomic Steel Salad, 745.00
+Sleek Plastic Pants, 780.00
+Awesome Frozen Chicken, 989.00
+Handmade Metal Table, 761.00
+Gorgeous Frozen Chair, 213.00
+undefined
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ node app.js
+Handcrafted Soft Pizza, 959.00
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ node app.js
+Small Granite Bacon, 654.00
+Unbranded Granite Cheese, 660.00
+Awesome Wooden Chair, 878.00
+Handmade Steel Mouse, 2.00
+Tasty Soft Car, 409.00
+Unbranded Metal Bike, 880.00
+Refined Metal Computer, 758.00
+Licensed Cotton Bacon, 977.00
+Licensed Concrete Towels, 529.00
+Handmade Wooden Computer, 321.00
+undefined
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ node app.js
+Licensed Plastic Chips- 545.00
+Gorgeous Granite Chair- 628.00
+Practical Granite Ball- 45.00
+Gorgeous Plastic Bike- 609.00
+Awesome Wooden Fish- 59.00
+Refined Concrete Chips- 311.00
+Tasty Wooden Bike- 873.00
+Incredible Steel Chair- 635.00
+Handmade Metal Fish- 460.00
+Intelligent Metal Chair- 19.00
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ node app.js
+Practical Cotton Shoes - 598.00
+Ergonomic Wooden Table - 537.00
+Handcrafted Plastic Chicken - 144.00
+Gorgeous Metal Car - 563.00
+Ergonomic Soft Soap - 704.00
+Fantastic Wooden Shirt - 463.00
+Handmade Rubber Keyboard - 974.00
+Handmade Plastic Bike - 464.00
+Gorgeous Plastic Chicken - 96.00
+Handcrafted Steel Pizza - 673.00
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ node app.js
+Awesome Plastic Fish - $548.00
+Fantastic Concrete Salad - $272.00
+Generic Steel Tuna - $361.00
+Fantastic Metal Soap - $260.00
+Handmade Rubber Pizza - $388.00
+Awesome Cotton Chair - $343.00
+Rustic Wooden Ball - $940.00
+Handcrafted Plastic Chips - $945.00
+Rustic Steel Ball - $220.00
+Tasty Concrete Table - $687.00
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ npm install express
+/home/ubuntu/workspace/introToCommandLine/IntroToNode/DemoApp
+└─┬ express@4.16.3
+  ├─┬ accepts@1.3.5
+  │ ├─┬ mime-types@2.1.18
+  │ │ └── mime-db@1.33.0
+  │ └── negotiator@0.6.1
+  ├── array-flatten@1.1.1
+  ├─┬ body-parser@1.18.2
+  │ ├── bytes@3.0.0
+  │ ├─┬ http-errors@1.6.2
+  │ │ ├── depd@1.1.1
+  │ │ ├── inherits@2.0.3
+  │ │ └── setprototypeof@1.0.3
+  │ ├── iconv-lite@0.4.19
+  │ └── raw-body@2.3.2
+  ├── content-disposition@0.5.2
+  ├── content-type@1.0.4
+  ├── cookie@0.3.1
+  ├── cookie-signature@1.0.6
+  ├─┬ debug@2.6.9
+  │ └── ms@2.0.0
+  ├── depd@1.1.2
+  ├── encodeurl@1.0.2
+  ├── escape-html@1.0.3
+  ├── etag@1.8.1
+  ├─┬ finalhandler@1.1.1
+  │ └── unpipe@1.0.0
+  ├── fresh@0.5.2
+  ├── merge-descriptors@1.0.1
+  ├── methods@1.1.2
+  ├─┬ on-finished@2.3.0
+  │ └── ee-first@1.1.1
+  ├── parseurl@1.3.2
+  ├── path-to-regexp@0.1.7
+  ├─┬ proxy-addr@2.0.3
+  │ ├── forwarded@0.1.2
+  │ └── ipaddr.js@1.6.0
+  ├── qs@6.5.1
+  ├── range-parser@1.2.0
+  ├── safe-buffer@5.1.1
+  ├─┬ send@0.16.2
+  │ ├── destroy@1.0.4
+  │ └── mime@1.4.1
+  ├── serve-static@1.13.2
+  ├── setprototypeof@1.1.0
+  ├── statuses@1.4.0
+  ├─┬ type-is@1.6.16
+  │ └── media-typer@0.3.0 
+  ├── utils-merge@1.0.1 
+  └── vary@1.1.2 
+
+npm WARN enoent ENOENT: no such file or directory, open '/home/ubuntu/workspace/introToCommandLine/IntroToNode/DemoApp/package.json'
+npm WARN DemoApp No description
+npm WARN DemoApp No repository field.
+npm WARN DemoApp No README data
+npm WARN DemoApp No license field.
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ ls
+app.js  node_modules/
+martex10:~/workspace/introToCommandLine/IntroToNode/DemoApp $ cd ..
+martex10:~/workspace/introToCommandLine/IntroToNode $ cd ..
+                                                           martex10:~/workspace/introToCommandLine $ ls
+Hello.html  IntroToNode/  message.txt
+martex10:~/workspace/introToCommandLine $ cd ..
+martex10:~/workspace $ mkdir IntroToExpress
+martex10:~/workspace $ ls
+                         IntroToExpress/  IntroToNode/  introToCommandLine/
+martex10:~/workspace $ cd IntroToExpress/
+martex10:~/workspace/IntroToExpress $ mkdir FirstExpressApp
+martex10:~/workspace/IntroToExpress $ cd FirstExpressApp/
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ ls
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ touch app.js
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ ls
+                                                        app.js
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ node app.js
+OUR EXPRESS APP WILL GO HERE
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ npm install express
+/home/ubuntu/workspace/IntroToExpress/FirstExpressApp
+└─┬ express@4.16.3 
+  ├─┬ accepts@1.3.5 
+  │ ├─┬ mime-types@2.1.18 
+  │ │ └── mime-db@1.33.0 
+  │ └── negotiator@0.6.1 
+  ├── array-flatten@1.1.1 
+  ├─┬ body-parser@1.18.2 
+  │ ├── bytes@3.0.0 
+  │ ├─┬ http-errors@1.6.2 
+  │ │ ├── depd@1.1.1 
+  │ │ ├── inherits@2.0.3 
+  │ │ └── setprototypeof@1.0.3 
+  │ ├── iconv-lite@0.4.19 
+  │ └── raw-body@2.3.2 
+  ├── content-disposition@0.5.2 
+  ├── content-type@1.0.4 
+  ├── cookie@0.3.1 
+  ├── cookie-signature@1.0.6 
+  ├─┬ debug@2.6.9 
+  │ └── ms@2.0.0 
+  ├── depd@1.1.2 
+  ├── encodeurl@1.0.2 
+  ├── escape-html@1.0.3 
+  ├── etag@1.8.1 
+  ├─┬ finalhandler@1.1.1 
+  │ └── unpipe@1.0.0 
+  ├── fresh@0.5.2 
+  ├── merge-descriptors@1.0.1 
+  ├── methods@1.1.2 
+  ├─┬ on-finished@2.3.0 
+  │ └── ee-first@1.1.1 
+  ├── parseurl@1.3.2 
+  ├── path-to-regexp@0.1.7 
+  ├─┬ proxy-addr@2.0.3 
+  │ ├── forwarded@0.1.2 
+  │ └── ipaddr.js@1.6.0 
+  ├── qs@6.5.1 
+  ├── range-parser@1.2.0 
+  ├── safe-buffer@5.1.1 
+  ├─┬ send@0.16.2 
+  │ ├── destroy@1.0.4 
+  │ └── mime@1.4.1 
+  ├── serve-static@1.13.2 
+  ├── setprototypeof@1.1.0 
+  ├── statuses@1.4.0 
+  ├─┬ type-is@1.6.16 
+  │ └── media-typer@0.3.0 
+  ├── utils-merge@1.0.1 
+  └── vary@1.1.2 
+
+npm WARN enoent ENOENT: no such file or directory, open '/home/ubuntu/workspace/IntroToExpress/FirstExpressApp/package.json'
+npm WARN FirstExpressApp No description
+npm WARN FirstExpressApp No repository field.
+npm WARN FirstExpressApp No README data
+npm WARN FirstExpressApp No license field.
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ node app.js
+                                                                 OUR EXPRESS APP WILL GO HERE
+/home/ubuntu/workspace/IntroToExpress/FirstExpressApp/app.js:2
+ let express = require(express);
+                       ^
+
+ReferenceError: express is not defined
+    at Object.<anonymous> (/home/ubuntu/workspace/IntroToExpress/FirstExpressApp/app.js:2:24)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:389:7)
+    at startup (bootstrap_node.js:149:9)
+    at bootstrap_node.js:504:3
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ node.js
+                                                             bash: node.js: command not found
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ node app.js
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ node app.js
+/home/ubuntu/workspace/IntroToExpress/FirstExpressApp/app.js:12
+ app.listen(process.enc.PORT, process.env.IP);
+                       ^
+
+TypeError: Cannot read property 'PORT' of undefined
+    at Object.<anonymous> (/home/ubuntu/workspace/IntroToExpress/FirstExpressApp/app.js:12:24)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.runMain (module.js:604:10)
+    at run (bootstrap_node.js:389:7)
+    at startup (bootstrap_node.js:149:9)
+    at bootstrap_node.js:504:3
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ node app.js
+^C      
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ ^C
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ node app.js
+^C
+martex10:~/workspace/IntroToExpress/FirstExpressApp $ 
