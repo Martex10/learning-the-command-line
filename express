@@ -1,0 +1,15 @@
+ let express = require("express");
+ let app = express();
+ 
+ // "/" => "HI THERE!"
+ app.get("/", function(req, res){
+     res.send("HI THERE!");
+ });
+ // "/BYE" => "GOOD BYE!"
+ // "/dog" => "MEOW!"
+ 
+ //Tell Express to listen (start server)
+ app.listen(process.env.PORT, process.env.IP, function(){
+     console.log("SERVER HAS STARTED!!!");
+ });
+ 
